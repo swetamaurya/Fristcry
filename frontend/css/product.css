@@ -1,0 +1,308 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #f5f5f5;
+}
+
+#img-1 img {
+    width: 100%;
+}
+
+#frist {
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: white;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.size {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.box {
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+.view {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: white;
+    margin: 15px 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.splash {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+}
+
+#summer {
+    display: flex;
+}
+
+.children {
+    width: 193px;
+    display: block;
+}
+
+#beloved {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+}
+
+.print {
+    width: 165px;
+    display: block;
+}
+
+#tweens {
+    margin-top: 15px;
+}
+
+.fash {
+    width: 100%;
+    vertical-align: middle;
+}
+
+.child {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.child-1 {
+    width: 100%;
+}
+
+.Ace {
+    display: flex;
+}
+
+.chsma {
+    display: flex;
+    gap: 20px;
+    background-color: white;
+}
+
+#tarun {
+    margin-bottom: -5px;
+}
+
+.Ace img {
+    width: 100%;
+}
+
+#main {
+    background-color: white;
+}
+
+.baby-1 {
+    display: flex;
+}
+
+.baby-1 img {
+    width: 192px;
+}
+
+#tarun-1 {
+    margin-bottom: -5px;
+}
+
+.baby-2 img {
+    width: 150px;
+    border: 1px solid red;
+}
+
+.baby-4 {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    width: 50px;
+}
+
+.baby-4 img {
+    width: 169px;
+}
+
+.baby-11 img {
+    width: 220px;
+}
+
+.baby-44 img {
+    width: 220px;
+}
+
+.baby-55 img {
+    width: 270px;
+    vertical-align: middle;
+    margin: -2px;
+}
+
+.baby-55 {
+    margin-top: -4px;
+}
+
+.baby-66 img {
+    width: 220px;
+    vertical-align: middle;
+    margin: -2px;
+}
+
+.baby-66 {
+    margin-top: -4px;
+}
+
+h2 {
+    text-align: center;
+    padding: 40px 0 20px;
+}
+
+.new {
+    margin-left: 60px;
+    margin-right: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.new img {
+    width: 609px;
+    border-radius: 10px;
+}
+
+.new-1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 35px;
+}
+
+.image img {
+    width: 100%;
+    padding: 50px;
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+    #frist {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .new {
+        grid-template-columns: 1fr;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .new img {
+        width: 100%;
+    }
+
+    .new-1 {
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 0px;
+    }
+
+    .view {
+        padding: 15px;
+        font-size: 18px;
+    }
+
+    h1 {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 768px) {
+    #frist {
+        grid-template-columns: 1fr;
+    }
+
+    .child {
+        grid-template-columns: 1fr;
+    }
+
+    .Ace {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .chsma {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .baby-1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .new {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .new-1 {
+        grid-template-columns: 1fr;
+    }
+
+    .view {
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    h1 {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .view {
+        padding: 5px;
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 14px;
+    }
+
+    .new {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .new img {
+        width: 100%;
+    }
+
+    .baby-1 img,
+    .baby-2 img,
+    .baby-4 img,
+    .baby-11 img,
+    .baby-44 img,
+    .baby-55 img,
+    .baby-66 img {
+        width: 100%;
+    }
+
+    .baby-4 {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}

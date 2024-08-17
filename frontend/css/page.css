@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    cursor: pointer;
+} 
+
+.head {
+    background-color: white;
+}
+
+.end {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background: #c2bbbb;
+    padding: 20px;
+    gap: 1px; 
+    display: flex;
+}
+
+.end > div > a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.end > div {
+    margin-left: 90px;
+    margin-right: 0px;
+}
+
+.para {
+    font-size: 12px;
+    color: rgb(148, 159, 159);
+}
+
+/* cantains */
+.cantains > img {
+    width: 100%;
+}
+
+.p {
+    background: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+.p > p {
+    margin-left: 200px;
+    padding: 15px;
+}
+
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: black;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .end {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .end > div {
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+
+    .p > p {
+        margin-left: 50px;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .end {
+        padding: 10px;
+        gap: 5px;
+    }
+
+    .p > p {
+        margin-left: 20px;
+        padding: 5px;
+        font-size: 12px;
+    }
+
+    .para {
+        font-size: 11px;
+    }
+
+    a {
+        font-size: 12px;
+    }
+}
